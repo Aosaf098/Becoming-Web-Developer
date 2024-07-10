@@ -270,7 +270,7 @@
 /* Current Target Style here */
 
 .current-target{
-    max-width: 80%;
+    max-width: 70%;
     height: 600px;
     /* border: 4px solid black; */
     margin: 40px auto;
@@ -341,3 +341,76 @@
 .current-target-card .js{
     background: rgba(255, 223, 0, 0.05);
 }
+
+/* Support Styles Here */
+
+.support{
+    width: 70%;
+    height: 350px;
+    border: 4px solid black;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("assets/handshake.jpg");
+    /* background-image: url(assets/handshake.jpg); */
+    /* background: rgba(0, 0, 0, 0.8); */
+    /* filter: brightness(50%); */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.support h2{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    /* margin-top: 10px; */
+    /* border: 4px solid black; */
+}
+.support p{
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding: 0px 100px;
+    /* border: 4px solid black; */
+}
+.support input{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    width: 550px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    top: 0%;
+    left: -150px;
+}
+.support ::placeholder{
+    text-align: left;
+}
+.support button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 60px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 10px;
+    position: absolute;
+    top: 74%;
+    right: 25%;
+    cursor: pointer;
+}
+
